@@ -1,0 +1,51 @@
+
+body{
+  font-family: 'Oswald';
+}
+
+nav{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin : 0 auto;
+}
+
+.navbar{
+  border-bottom: inset;
+  border-radius: 20px;
+  align: center;
+  margin: 15% 20% 10% 20%;
+}
+
+.light{
+
+}
+
+.dark{
+
+}
+
+
+#nav ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+
+#navbutton{
+  padding: 20px 15px;
+
+}
+
+#navbutton:hover{
+  font-size: 30px;
+}
+
+#switchbutton{
+  padding: 5px 5px;
+}
+
+#header{
+  margin-left: 95%;
+}
