@@ -9,11 +9,44 @@ nav{
   margin : 0 auto;
 }
 
+.whitebutton{
+font-family: 'Oswald' ;
+text-rendering: auto;
+letter-spacing: normal;
+word-spacing: normal;
+line-height: normal;
+text-transform: none;
+cursor: pointer;
+text-indent: 0px;
+text-shadow: none;
+display: inline-block;
+text-align: center;
+align-items: flex-start;
+box-sizing: border-box;
+background-color: white;
+margin: 0em;
+border-width: 2px;
+border-radius: 5px;
+border-style: outset;
+border-color: black;
+padding: 5px;
+}
+
+.whitebutton:hover{
+  padding: 6px;
+}
+
+.whitebutton:active {
+  background-color: #E7E7E7;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .navbar{
   border-bottom: inset;
   border-radius: 20px;
   align: center;
-  margin: 15% 20% 10% 20%;
+  margin: 15% 30% 10% 30%;
 }
 
 .light{
@@ -35,11 +68,14 @@ nav{
 
 #navbutton{
   padding: 20px 15px;
-
+  border-radius: 20px;
 }
 
 #navbutton:hover{
   font-size: 30px;
+  background-color: #E7E7E7;
+
+
 }
 
 #switchbutton{
@@ -48,4 +84,10 @@ nav{
 
 #header{
   margin-left: 95%;
+}
+
+nav ul li a{
+  color: black;
+  text-decoration: none;
+  font-size: 28px;
 }
